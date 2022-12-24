@@ -60,7 +60,7 @@ set_seed(args.seed)
 
 dataset = args.dataset
 if dataset == 'sysu':
-    data_path = '/workspace/dataset/SYSU-MM01/'
+    data_path = '/kaggle/input/sysumm01'
     test_mode = [1, 2]  # thermal to visible
 elif dataset == 'regdb':
     data_path = '/workspace/dataset/RegDB/'
